@@ -1,22 +1,25 @@
-_Sergey Lesnevsky_  
-***
+#**Sergey Lesnevsky**
+
 ---
 ![Foto](uuqJgNiAmtA.jpg)
 ---
-##Contacts:##
-*Phone: +375292505053 *Email: lesnevsky.sergey@gmail.com *Skype: Serge Lesnevsky *Telegram: SergeyLesnevsky
+##Contacts:
+  *Phone: +375292505053 
+  *Email: lesnevsky.sergey@gmail.com 
+  *Skype: Serge Lesnevsky 
+  *Telegram: SergeyLesnevsky
 ---
-##About myself:##
-####I want to program, create games or useful applications. I'm purposeful, diligent, communicative. I work at the music school No. 6, I have prepared several laureates of international and republican competitions.  I really liked programming, I first signed up for automation courses and passed them, but I want to write code in frontend.####
+##About myself:
+####I want to program, create games or useful applications. I'm purposeful, diligent, communicative. I work at the music school No. 6, I have prepared several laureates of international and republican competitions.  I really liked programming, I first signed up for automation courses and passed them, but I want to write code in frontend.
 
 ---
-##My skils:##
-####I studied Java core, Jenkins, Allure, JBDC, Maven.####
+##My skils:
+####I studied Java core, Jenkins, Allure, JBDC, Maven.
 ---
-##[My code examples in my repository](https://github.com/Sergey-Lesnevskiy/Final-Task2)##
+##[My code examples in my repository](https://github.com/Sergey-Lesnevskiy/Final-Task2)
 
 ---
-##My code:##
+##My code:
 ```
 public class Cat {
 private Integer age= 1;
@@ -53,10 +56,11 @@ private String name="a simple cat";
 }
 ```
 ---
-##Education and courses:##
-*I graduated Belarusian State Academy of Music specialization button accordion, *Courses Automated testing in the company Senla.
+##Education and courses:
+ 1.I graduated Belarusian State Academy of Music specialization button accordion, 
+ 2.Courses Automated testing in the company Senla.
 ---
-##My English:##
-I read with a dictionary,  I am actively studying, I do not reach a little to Pre-Intermediate.
+##My English:
+I read with a dictionary,  I am actively studying, Now my level is A1.
 ---
 
