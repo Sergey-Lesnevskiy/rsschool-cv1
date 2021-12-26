@@ -8,7 +8,7 @@
    + Email: lesnevsky.sergey@gmail.com
    + Skype: Serge Lesnevsky
    + Telegram: SergeyLesnevsky
-   + [My discord profile](https://discord.com/channels/516715744646660106/920695268998021231)
+   + Discord profile: Lesnevsky-Sergey#9525
 ---
 ## **About myself:**
 * I want to program, create games or useful applications. I'm purposeful, diligent, communicative. I work at the music school No. 6, I have prepared several laureates of international and republican competitions.  I really liked programming, I first signed up for automation courses and passed them, but I want to write code in frontend.
