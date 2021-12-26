@@ -11,12 +11,16 @@
    + Discord profile: Lesnevsky-Sergey#9525
 ---
 ## **About myself:**
-* I want to program, create games or useful applications. I'm purposeful, diligent, communicative. I work at the music school No. 6, I have prepared several laureates of international and republican competitions.  I really liked programming, I first signed up for automation courses and passed them, but I want to write code in frontend.
+  I want to program, create games or useful applications. I'm purposeful, diligent, communicative. I work at the music school No. 6, I have prepared several laureates of international and republican competitions.  I really liked programming, I first signed up for automation courses and passed them, but I want to write code in frontend.
 ---
 
 
 ## **My skils:**
-* I studied Java core, Jenkins, Allure, JBDC, Maven.
+  + Java Core, 
+  + Jenkins,
+  + Allure,
+  + JBDC,
+  + Maven.
 ---
 
 
@@ -71,6 +75,6 @@ private String name="a simple cat";
 
 
 ## **My English:**
- * I read with a dictionary,  I am actively studying, Now my level is A1.
+   I read with a dictionary,  I am actively studying, Now my level is A1.
 ---
 
