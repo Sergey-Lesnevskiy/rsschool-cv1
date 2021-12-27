@@ -30,3 +30,24 @@
     margin: 30px;
 }
 div{margin: 30px;}
+
+@keyframes color-change {
+    0% {
+      color:black;
+    }
+  
+    50% {
+      color: green;
+    }
+  
+     80% {
+      color: blue;
+    } 
+    100%{
+      color: black;
+    }
+  }
+  
+  #black-white {
+    animation: color-change 2s infinite;
+  }
