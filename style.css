@@ -18,7 +18,7 @@
     margin: 30px;
 }
 .name-chapter{
-    text-align: center;
+   
     font-size: 30px;
     font-style: italic;
     margin: 30px;
@@ -30,17 +30,18 @@
 .name{
     margin: 30px;
 }
-div{margin: 30px;}
+div{margin: 30px;
+    border: 1px solid rgb(211, 118, 12);}
 
 @keyframes color-change {
     0% {
       color:black;
     }
   
-    50% {
+    30% {
       color: green;
     }
-  
+  50%{color:rgb(233, 229, 14)}
      80% {
       color: blue;
     } 
