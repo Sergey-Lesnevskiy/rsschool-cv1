@@ -6,111 +6,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CV</title>
+    <title>CV3</title>
 </head>
 
 <body>
 
-    <header class='heder'>
-        <p class='name'>
-            Sergey Lesnevsky
-        </p>
+    <header>
+        <div class="heder-conteiner">
+            <div class="heder-foto"><img src="assets/img/my_foto.jpg" alt="my foto" class="foto" height="395" width="295"></div>
+            <div class='heder-name'>
+                <div>
+                    <h1>Sergey Lesnevsky</h1>
+                </div>
+                <div>
+                    <h2>student of frontend development</h2>
+                </div>
+            </div>
+        </div>
     </header>
+
     <main>
-        <div class='near'>
-            <img class="foto" src="uuqJgNiAmtA.jpg" alt="my foto">
-        </div>
-        <div>
-            <span class='name-chapter'>Contacts:</span>
-            <ul class='text'>
-                <li> <b>Phone: </b>+375292505053</li>
-                <li><b>Email: </b>lesnevsky.sergey@gmail.com</li>
-                <li><b>Skype: </b>Serge Lesnevsky</li>
-                <li><b>Telegram: </b>SergeyLesnevsky</li>
-                <li><b>Discord profile: </b>Lesnevsky-Sergey#9525</li>
-            </ul>
+        <div class="main-conteiner">
+            <div class="main-contact">
+                <div class="text-size">
+                    <span class='name-chapter'>Contacts:</span>
+                    <ul class='text'>
+                        <li> <b>Phone: </b>+375292505053</li>
+                        <li><b>Email: </b>lesnevsky.sergey@gmail.com</li>
+                        <li><b>Skype: </b>Serge Lesnevsky</li>
+                        <li><b>Telegram: </b>SergeyLesnevsky</li>
+                        <li><b>Discord profile: </b>Lesnevsky-Sergey#9525</li>
+                    </ul>
 
-        </div>
-        <div>
-            <span class='name-chapter'>About myself:</span>
-            <p class='text'>
-                I want to program, create games or useful applications. I'm purposeful, diligent, communicative. I work
-                at the music school No. 6. I have prepared several laureates of international and republican
-                competitions. I really liked programming, I first signed up for automation courses and passed them, but
-                I want to write code in frontend.
+                </div>
+                <div class="text-size">
+                    <span class="name-chapter">My skils:</span>
 
-            </p>
-        </div>
-        <div>
-            <span class="name-chapter">My skils:</span>
-        
-        <ul class='text'>
-            <li>Java Core</li>
-            <li>Jenkins</li>
-            <li>Allure</li>
-            <li>JBDC</li>
-            <li>Maven</li>
-        </ul>
-        </div>
-        <div>
-            <a href="https://github.com/Sergey-Lesnevskiy/Test-Final" class="name-chapter" id="black-white">My code
-                examples in
-                repository</a>
+                    <ul class='text'>
+                        <li>Java Core</li>
+                        <li>Jenkins</li>
+                        <li>Allure</li>
+                        <li>JBDC</li>
+                        <li>Maven</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-description">
+                <div class="myself">
+                    <span class='name-chapter'>About myself:</span>
+                    <p class='text'>
+                        I want to program, create games or useful applications. I'm purposeful, diligent, communicative.
+                        I work
+                        at the music school No. 6. I have prepared several laureates of international and republican
+                        competitions. I really liked programming, I first signed up for automation courses and passed
+                        them, but
+                        I want to write code in frontend.
+                    </p>
+                </div>
+                <div class="education">
+                    <span class="name-chapter">Education and courses:</span>
+                    <ul class='text'>
+                        <li>I graduated Belarusian State Academy of Music specialization button accordion</li>
+                        <li> Courses Automated testing in the company Senla</li>
+                    </ul>
+                </div>
+                <div class="english">
+                    <span class="name-chapter">
+                        My English:
+                    </span>
+                    <p class='text'> I read with a dictionary. I am actively studying. Now my level is A1.</p>
+                </div>
 
-        </div>
-        <div>
-            <span class="name-chapter">My code:</span>
-            <pre>
-    public class Cat {
-        private Integer age= 1;
-        private String name="a simple cat";
-            public Cat() {
-                name="a simple cat";
-                age= 1;
-            }
-        
-            public Cat(String names, int i){
-                this.name=names;
-                this.age=age;
-            }
-        
-            public Integer getAge() {
-                return age;
-            }
-        
-            public void setAge(Integer age) {
-                this.age = age;
-            }
-        
-            public String getName() {
-                return name;
-            }
-        
-            public void setName(String name) {
-                this.name = name;
-            }
-        
-            public String toString() {
-                return "name cat"+":"+this.getName()+" ; "+"cat age"+":"+this.getAge();
-            }
-        }
-</pre>
-        </div>
-        <div>
-            <span class="name-chapter">Education and courses:</span>
-            <ul class='text'>
-                <li>I graduated Belarusian State Academy of Music specialization button accordion</li>
-                <li> Courses Automated testing in the company Senla</li>
-            </ul>
-        </div>
+            </div>
 
-        <div>
-            <span class="name-chapter">
-                My English:
-            </span>
-            <p class='text'> I read with a dictionary. I am actively studying. Now my level is A1.</p>
         </div>
     </main>
+
+    <footer>
+        <div class="footer-conteiner">
+            <div class="footer-rsschool"><a href="https://rs.school/js/"><img src="assets/img/logo.png" alt="logo-rsschool" width="295" height="95"></a>
+            </div>
+            <div class="footer-information">
+                <div class="footer-repos">
+                    <a href="https://github.com/Sergey-Lesnevskiy/Test-Final" class="name-chapter" id="black-white">My
+                        code
+                        examples in
+                        repository</a>
+
+                </div>
+                <div class="footer-today"><span class='text'>28.12.2021</span></div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

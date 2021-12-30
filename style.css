@@ -1,56 +1,102 @@
-.name{
-    text-align: center;
-        font-size: 50px;
-        color:blue;
-        border: 1px solid rgb(211, 118, 12);
-        background-color: rgb(221, 215, 230);
-        margin: 30px;
-}
- .foto{
 
-    width: 350px;
-    height: 450px;
-    margin: 30px;
-    border: 1px solid rgb(211, 118, 12);
-} 
-.near{
-    text-align: center;
-    margin: 30px;
+.heder-conteiner{
+display: flex; 
+flex-direction: row;
+justify-content: center;
+margin: auto;
+width: 1000px;
+height: 400px;
 }
-.name-chapter{
+
+.heder-conteiner div{
+min-width: 100px;
+
+
+}
+.heder-foto, .main-contact, .footer-rsschool{
    
+    background-color: rgb(234, 236, 222);
+padding: 10px 0px 0px 10px
+}
+.heder-name, .main-description, .footer-information{
+    width: 700px;
+    background-color: rgb(234, 236, 222);
+}
+.main-conteiner{
+    display: flex; 
+    flex-direction: row;
+    justify-content: left;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+   
+    }
+.main-conteiner div{
+   
+    min-width: 100px;
+   
+} 
+.footer-conteiner{
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        width: 1000px;
+        height: 100px;
+    
+      ;
+        }
+.footer-conteiner div{
+        min-width: 100px;
+        
+        
+        }
+     
+    h1{
+        color:rgb(68, 64, 64);
+        text-align: center;
+        font-size: 60px;
+        text-decoration: rgb(122, 124, 129) underline;
+        font-family:sans-serif;
+      
+    }
+    .heder-name{
+        background-color: rgb(234, 236, 222);
+        text-align: center;
+        font-size: 20px;
+        color:rgb(68, 64, 64);
+    }
+    .text-size{
+height: 250px;
+    }
+.name-chapter{
+   text-align: center;
+    margin:10px;
     font-size: 30px;
-    font-style: italic;
-    margin: 30px;
+    color: rgb(68, 64, 64);;
+    text-decoration: rgb(103, 120, 161) underline;
 }
 .text{
-    font-size: 25px;
-    margin: 30px;
+    font-size:  20px; ;
 }
-.name{
-    margin: 30px;
-}
-div{margin: 30px;
-    border: 1px solid rgb(211, 118, 12);}
-
-@keyframes color-change {
-    0% {
-      color:black;
-    }
-  
-    30% {
-      color: green;
-    }
-  50%{color:rgb(233, 229, 14)}
-     80% {
-      color: blue;
-    } 
-    100%{
-      color: black;
-    }
-  }
-  
-  #black-white {
+.footer-repos{
+ text-align: center;
+    height:50px;
    
-    animation: color-change 2s infinite;
-  }
+}
+.footer-today{
+ text-align: center;
+   height: 45px;
+}
+.footer-rsschool{
+    padding: 0px 0px 10px 10px;
+}
+.myself{
+    height: 230px;
+}
+.education{
+    height:145px ;
+}
+.english{
+    height: 120px;
+}
