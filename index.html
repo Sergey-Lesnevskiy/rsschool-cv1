@@ -62,39 +62,31 @@
         <div>
             <span class="name-chapter">My code:</span>
             <pre>
-    public class Cat {
-        private Integer age= 1;
-        private String name="a simple cat";
-            public Cat() {
-                name="a simple cat";
-                age= 1;
-            }
-        
-            public Cat(String names, int i){
-                this.name=names;
-                this.age=age;
-            }
-        
-            public Integer getAge() {
-                return age;
-            }
-        
-            public void setAge(Integer age) {
-                this.age = age;
-            }
-        
-            public String getName() {
-                return name;
-            }
-        
-            public void setName(String name) {
-                this.name = name;
-            }
-        
-            public String toString() {
-                return "name cat"+":"+this.getName()+" ; "+"cat age"+":"+this.getAge();
-            }
-        }
+                module.exports = function towelSort (matrix) {
+                    let arrAll=[];
+                    if(matrix==undefined){
+                    return []
+                    }else{
+                      let count=0
+                      let arrAll=[];
+                        for (let i = 0; i < matrix.length; i++) {
+                          if(i%2==1){               
+                for (let r = matrix[i].length-1; r >= 0; r--) {
+                  arrAll[count]=matrix[i][r]
+                  count++  
+                  }
+                     }  else{
+                        
+                      for (let j = 0; j < matrix[i].length; j++) {
+                      arrAll[count]=matrix[i][j]
+                      count++
+                      }
+                        }
+                      }
+                      
+                      return arrAll
+                        }   
+                }
 </pre>
         </div>
         <div>
