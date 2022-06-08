@@ -11,18 +11,21 @@
 .header-conteiner div {
   min-width: 100px;
 }
+
 .header-foto,
 .main-contact,
 .img_rsschool {
   background-color: rgb(234, 236, 222);
   padding: 10px 0px 0px 10px;
 }
+
 .header-name,
 .main-description,
 .footer-information {
   width: 700px;
   background-color: rgb(234, 236, 222);
 }
+
 .main-conteiner {
   display: flex;
   flex-direction: row;
@@ -83,12 +86,4 @@ h2 {
 .img_rsschool {
   padding: 0px 0px 10px 10px;
 }
-.myself {
- 
-}
-.education {
- 
-}
-.english {
-  
-}
+
